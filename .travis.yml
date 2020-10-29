@@ -1,6 +1,9 @@
 dist: trusty
 sudo: required
 language: c
+arch:
+  - amd64
+  - ppc64le
 compiler:
   - clang
   - gcc
